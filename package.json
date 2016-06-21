@@ -6,7 +6,8 @@
     {
       "name": "Tristan Davies",
       "email": "npm@tristan.io"
-    }, {
+    },
+    {
       "name": "Nick Husher",
       "email": "nhusher@gmail.com"
     }
@@ -25,12 +26,12 @@
     "mocha": "~1.20.0"
   },
   "dependencies": {
-    "mapnik": "^3.4.16",
     "async": "~0.9.0",
     "caching": "git://github.com/faradayio/node-caching.git",
     "clone": "^1.0.2",
     "connect-timeout": "^1.6.2",
     "express": "~4.4.1",
+    "mapnik": "^3.5.13",
     "pg": "^4.3.0",
     "sphericalmercator": "~1.0.2",
     "topojson": "1.6.9"
