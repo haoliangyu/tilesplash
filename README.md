@@ -187,9 +187,11 @@ When you want to use user input in a query, see [Escaping variables](#escaping-v
 
 `render` is the second argument passed to your layer callback function. You can use it to render different kinds of tiles.
 
-### `render(sql)`
+### `render(sql, postQuery)`
 
-Runs a SQL query and displays the result as a tile
+Runs a SQL query and displays the result as a tile.
+
+`postQuery(geojson)` is an optional function to process the geojson query result.
 
 ### `render(object)`
 
